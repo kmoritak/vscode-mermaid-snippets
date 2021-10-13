@@ -1,0 +1,149 @@
+{
+    "Rounded edges node": {
+        "prefix": "flowchart:node:rounded",
+        "body": [
+            "$1(\"$1\")"
+        ],
+        "description": "Rounded edges node"
+    },
+    "Stadium-shaped node": {
+        "prefix": "flowchart:node:stadium",
+        "body": [
+            "$1([\"$1\"])"
+        ],
+        "description": "Stadium-shaped node"
+    },
+    "Subroutine shape node": {
+        "prefix": "flowchart:node:subroutine",
+        "body": [
+            "$1[[\"$1\"]]"
+        ],
+        "description": "Subroutine shape node"
+    },
+    "Cylindrical shape node": {
+        "prefix": "flowchart:node:cylinder",
+        "body": [
+            "$1[(\"$1\")]"
+        ],
+        "description": "Cylindrical node"
+    },
+    "Circle node": {
+        "prefix": "flowchart:node:circle",
+        "body": [
+            "$1((\"$1\"))"
+        ],
+        "description": "Circle node"
+    },
+    "Asymmetric node": {
+        "prefix": "flowchart:node:asymmetric",
+        "body": [
+            "$1>\"$1\"]"
+        ],
+        "description": "Asymmetric node"
+    },
+    "Rhombus node": {
+        "prefix": "flowchart:node:rhombus",
+        "body": [
+            "$1{\"$1\"}"
+        ],
+        "description": "Rhombus node"
+    },
+    "Hexagon node": {
+        "prefix": "flowchart:node:hexagon",
+        "body": [
+            "$1{{\"$1\"}}"
+        ],
+        "description": "Hexagon node"
+    },
+    "Parallegram node": {
+        "prefix": "flowchart:node:parallegram",
+        "body": [
+            "$1[/\"$1\"/]"
+        ],
+        "description": "Parallegram node"
+    },
+    "Alt parallegram node": {
+        "prefix": "flowchart:node:parallegram-alt",
+        "body": [
+            "$1[\\\"$1\"\\]"
+        ],
+        "description": "Alt Parallegram node"
+    },
+    "Trapezoid node": {
+        "prefix": "flowchart:node:trapezoid",
+        "body": [
+            "$1[/\"$1\"\\]"
+        ],
+        "description": "Trapezoid node"
+    },
+    "Alt Trapezoid node": {
+        "prefix": "flowchart:node:trapezoid-alt",
+        "body": [
+            "$1[\\\"$1\"/]"
+        ],
+        "description": "Alt Trapezoid node"
+    },
+
+    "Link": {
+        "prefix": "flowchart:link:normal",
+        "body": [
+            "$1 --$2 $3"
+        ],
+        "description": "Link, you must specify arrow type"
+    },
+    "Link with text": {
+        "prefix": "flowchart:link:normal-with-text",
+        "body": [
+            "$1 --$2|$3| $4"
+        ],
+        "description": "Link with text, you must specify arrow type"
+    },
+
+    "Bidirectional link": {
+        "prefix": "flowchart:link:normal:bi",
+        "body": [
+            "$1 $2--$3 $4"
+        ],
+        "description": "Bidirectional link, you must specify arrow type"
+    },
+    "Bidirectional link with text": {
+        "prefix": "flowchart:link:normal-with-text:bi",
+        "body": [
+            "$1 $2--$3|$4| $5"
+        ],
+        "description": "Bidirectional link with text, you must specify arrow type"
+    },
+
+    "Subgraph": {
+        "prefix": "flowchart:subgraph",
+        "body": [
+            "subgraph $1[\"$2\"]",
+            "end"
+        ],
+        "description": "Subgraph"
+    },
+
+    "BR": {
+        "prefix": "html:br",
+        "body": [
+            "<br>"
+        ],
+        "description": "Newline of HTML"
+    },
+
+    "Class": {
+        "prefix": "flowchart:class:define",
+        "body": [
+            "classDef $1 $2"
+        ],
+        "description": "Define a class, you can use attributes such as fill, stroke, stroke-width, color, and stroke-dasharray"
+    },
+
+    "Apply a class": {
+        "prefix": "flowchart:class:apply",
+        "body": [
+            "class $1 $2"
+        ],
+        "description": "Apply a class, class ID className"
+    }
+}
