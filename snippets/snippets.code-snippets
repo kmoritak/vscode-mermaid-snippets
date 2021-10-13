@@ -2,84 +2,84 @@
     "Rounded edges node": {
         "prefix": "flowchart:node:rounded",
         "body": [
-            "$1(\"$1\")"
+            "$1(\"$2\")"
         ],
         "description": "Rounded edges node"
     },
     "Stadium-shaped node": {
         "prefix": "flowchart:node:stadium",
         "body": [
-            "$1([\"$1\"])"
+            "$1([\"$2\"])"
         ],
         "description": "Stadium-shaped node"
     },
     "Subroutine shape node": {
         "prefix": "flowchart:node:subroutine",
         "body": [
-            "$1[[\"$1\"]]"
+            "$1[[\"$2\"]]"
         ],
         "description": "Subroutine shape node"
     },
     "Cylindrical shape node": {
         "prefix": "flowchart:node:cylinder",
         "body": [
-            "$1[(\"$1\")]"
+            "$1[(\"$2\")]"
         ],
         "description": "Cylindrical node"
     },
     "Circle node": {
         "prefix": "flowchart:node:circle",
         "body": [
-            "$1((\"$1\"))"
+            "$1((\"$2\"))"
         ],
         "description": "Circle node"
     },
     "Asymmetric node": {
         "prefix": "flowchart:node:asymmetric",
         "body": [
-            "$1>\"$1\"]"
+            "$1>\"$2\"]"
         ],
         "description": "Asymmetric node"
     },
     "Rhombus node": {
         "prefix": "flowchart:node:rhombus",
         "body": [
-            "$1{\"$1\"}"
+            "$1{\"$2\"}"
         ],
         "description": "Rhombus node"
     },
     "Hexagon node": {
         "prefix": "flowchart:node:hexagon",
         "body": [
-            "$1{{\"$1\"}}"
+            "$1{{\"$2\"}}"
         ],
         "description": "Hexagon node"
     },
     "Parallegram node": {
         "prefix": "flowchart:node:parallegram",
         "body": [
-            "$1[/\"$1\"/]"
+            "$1[/\"$2\"/]"
         ],
         "description": "Parallegram node"
     },
     "Alt parallegram node": {
         "prefix": "flowchart:node:parallegram-alt",
         "body": [
-            "$1[\\\"$1\"\\]"
+            "$1[\\\"$2\"\\]"
         ],
         "description": "Alt Parallegram node"
     },
     "Trapezoid node": {
         "prefix": "flowchart:node:trapezoid",
         "body": [
-            "$1[/\"$1\"\\]"
+            "$1[/\"$2\"\\]"
         ],
         "description": "Trapezoid node"
     },
     "Alt Trapezoid node": {
         "prefix": "flowchart:node:trapezoid-alt",
         "body": [
-            "$1[\\\"$1\"/]"
+            "$1[\\\"$2\"/]"
         ],
         "description": "Alt Trapezoid node"
     },

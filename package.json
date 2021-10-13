@@ -1,0 +1,22 @@
+{
+    "name": "vscode-mermaid-snippets",
+    "displayName": "vscode-mermaid-snippets",
+    "description": "Snippets of mermaid",
+    "publisher": "kmoritak",
+    "repository": "https://github.com/kmoritak/vscode-mermaid-snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

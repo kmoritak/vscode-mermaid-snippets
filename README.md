@@ -1,7 +1,27 @@
-# vscode-mermaid-snippets
-Snippets for mermaid
+# vscode-mermaid-snippets README
 
-## INSTALL
+This is snippets file for mermaid.
+Let's spend less to make more mermaid files.
 
-Put the file in your project `.vscode` directory.
-Ofcourse you can put it in the global one.
+## Features
+
+This is just snippets file, anything else?
+
+## Requirements
+
+Nothing.
+
+## Extension Settings
+
+Nothing.
+
+## Known Issues
+
+Nothing.
+
+## Release Notes
+
+### 1.0.0
+
+This is the firse release.
+Some (almost of) 'flowchart' syntax is implemented.
