@@ -1,0 +1,116 @@
+{
+    "Put the header": {
+        "prefix": "seq:header",
+        "body": [
+            "sequenceDiagram",
+            ""
+        ],
+        "description": "Put the header 'sequenceDiagram'."
+    },
+    "Participant": {
+        "prefix": "seq:participant",
+        "body": [
+            "participant ${1:Alice}"
+        ],
+        "description": "Participant"
+    },
+    "Participant with alias": {
+        "prefix": "seq:participant-with-alias",
+        "body": [
+            "participant ${1:A} as ${2:Alice}"
+        ],
+        "description": "Participant with alias"
+    },
+    "Actor": {
+        "prefix": "seq:actor",
+        "body": [
+            "actor $1"
+        ],
+        "description": "Actor"
+    },
+    "Actor with alias": {
+        "prefix": "seq:actor-with-alias",
+        "body": [
+            "actor ${1:A} as ${2:Alice}"
+        ],
+        "description": "Actor with alias"
+    },
+    "Message": {
+        "prefix": "seq:message",
+        "body": [
+            "${1:Alice} ->> ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message"
+    },
+    "Message displayed solid line without arrow": {
+        "prefix": "seq:message:solid",
+        "body": [
+            "${1:Alice} -> ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed solid line without arrow"
+    },
+    "Message displayed dotted line without arrow": {
+        "prefix": "seq:message:dotted",
+        "body": [
+            "${1:Alice} --> ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed dotted line without arrow"
+    },
+    "Message displayed solid line with arrowhead": {
+        "prefix": "seq:message:solid-with-arrowhead",
+        "body": [
+            "${1:Alice} -) ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed solid line with arrowhead"
+    },
+    "Message displayed dotted line with arrowhead": {
+        "prefix": "seq:message:dotted-with-arrowhead",
+        "body": [
+            "${1:Alice} --) ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed dotted line with arrowhead"
+    },
+    "Message displayed solid line with a cross": {
+        "prefix": "seq:message:solid-with-a-cross",
+        "body": [
+            "${1:Alice} -x ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed solid line with a cross"
+    },
+    "Message displayed dotted line with a cross": {
+        "prefix": "seq:message:dotted-with-a-cross",
+        "body": [
+            "${1:Alice} --x ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed dotted line with a cross"
+    },
+    "Message displayed solid line with open arrow": {
+        "prefix": "seq:message:solid-with-open arrow",
+        "body": [
+            "${1:Alice} -) ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed solid line with open arrow"
+    },
+    "Message displayed dotted line with open arrow": {
+        "prefix": "seq:message:dotted-with-open arrow",
+        "body": [
+            "${1:Alice} --) ${2:Bob}: ${3:Hello Bob, how are you?}"
+        ],
+        "description": "Message displayed dotted line with open arrow"
+    },
+
+    "Activation": {
+        "prefix": "seq:activate",
+        "body": [
+            "activate ${1:Alice}"
+        ],
+        "description": "Activate"
+    },
+    "Deactivation": {
+        "prefix": "seq:deactivate",
+        "body": [
+            "deactivate ${1:Alice}"
+        ],
+        "description": "Deactivate"
+    }
+}
